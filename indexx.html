@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>My Portfolio</title>
+    </head>
+    <body>
+
+         <!-- HEADER -->
+         <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">PORTFOLIO</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Yashi Mittal</span><br> </h1>
+                    <h2 class="home__title_des">Coder and a part time Student</h2>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/mittalyashi/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/yashi2003"  class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    
+                    
+                    <div>
+                        <h2 class="about_subtitle">My name is Yashi Mittal</h2>
+                        <p class="about_text">
+                          <em>I am currently a 2nd year undergraduate student pursuing B.Tech in Computer Science Engineering from<a href="https://mait.ac.in/"> MAIT</a>, Delhi.</em>
+                        </p>
+                        <br>
+                        <a href="https://docs.google.com/document/d/1lsire65LHB61FXs1E0FZXn_RszjWpb9tFggivp4pIN8/edit?usp=share_link"> <input type="submit" value="My Resume" class="resume_button button"></a>
+                      </div> 
+
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Professional Skills</h2>
+                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                        <div class="skills__data">
+                            <ul> 
+                                <li>Java</li>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>Javascript</li>
+                                <li>C++</li>
+                                <li>C</li>
+                                <li>MySQL</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="images\skill5.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input" placeholder="Your Message..."></textarea>
+                        <input type="button" value="Enter" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Social Media</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+        </footer>
+    </body>
+</html>
