@@ -1,7 +1,4 @@
-# SIMBT_01
-LV-1
 
--TASK #01
 
 -PORTFOLIO
 
